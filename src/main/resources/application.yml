@@ -1,0 +1,13 @@
+spring:
+  application:
+    version: @project.version@
+    name: votingSystem
+
+  data:
+    mongodb:
+      host: mongodb
+      port: 27017
+      database: system_voting
+
+server:
+  port: 8080
